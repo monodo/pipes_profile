@@ -1,0 +1,12 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Python Addin</Name><AddInID>{4bb7cecf-621c-4f63-8f7b-14e494109684}</AddInID><Description>Outils de gestion des coupes du r&#233;seau &#233;lectrique</Description><Version>0.1</Version><Image>Images\arrow.png</Image><Author>SIT</Author><Company>Ville d'Yverdon-les-Bains</Company><Date>01/08/2019</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="coupes_geonis_addin.py" namespace="coupes_geonis_addin"><ArcMap>
+    <Commands>
+        <Tool caption="Coupes" category="Python Addin" class="CoupeEle" id="coupes_geonis_addin.tool" image="Images\arrow.png" message="Coupes r&#233;seau &#233;lectrique" tip="Coupes r&#233;seau &#233;lectrique"><Help heading="Aide">Cliquez ici</Help></Tool>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="Coupes r&#233;seau &#233;lectrique" category="Python Addin" id="coupes_geonis_addin.toolbar" showInitially="true"><Items><Tool refID="coupes_geonis_addin.tool" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
